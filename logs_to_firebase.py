@@ -14,7 +14,7 @@ def timeDiffAsSecond(date1,date2):
 
 
 # Sservice account key
-cred = credentials.Certificate('*.json') # Edit
+cred = credentials.Certificate('firebase.json') # Edit
 
 # Initialize granting admin privileges
 firebase_admin.initialize_app(cred, {
